@@ -12,3 +12,8 @@ before_install:
     - conda install --yes python=3.6
       
 script:
+pycodestyle data_viz.py
+pycodestyle plot_gtex.py
+pycodestyle plot_gtex.linear_script
+python test_data_viz.py
+python test_plot_gtex.py
