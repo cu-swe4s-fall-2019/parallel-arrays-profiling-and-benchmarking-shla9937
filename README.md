@@ -1,3 +1,8 @@
+# submodules
+I was almost able to implement the hash table into this script, but I couldn't figure out how to use it. I know that what I want on the end is a hash table with the group names as the key and the gene counts as valuables, but becuase there are so many parallel arrays in the originial script, I couldn't fiugre out how to deconvelute it. I was able to implement a submodule and call functions from within it using the plot_gtex_hash_script.py. 
+
+I think this would be easier if I started from scratch and used dictionaries in place of the hash table as first.
+
 # parallel-arrays-profiling-and-benchmarking
 Parallel Arrays, Profiling, and Benchmarking
 

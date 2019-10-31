@@ -1,0 +1,1 @@
+python hash_table.py 100 rolling chain 'non_rand_words.txt' 100 | python scatter.py rolling_chain.png 'Hash word' 'Time' 'Hashing using rolling hash and chain probing'
